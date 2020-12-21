@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" 
+        content="width=device-width, 
+        initial-scale=1.0, 
+        user-scalable=no" />
+  <title>Drag/Drop/Bounce</title>
+  <style>
+    #container {
+      width: 100%;
+      height: 400px;
+      background-color: #333;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      border-radius: 7px;
+      touch-action: none;
+    }
+    #item {
+      width: 100px;
+      height: 100px;
+      background-color: rgb(245, 230, 99);
+      border: 10px solid rgba(136, 136, 136, .5);
+      border-radius: 50%;
+      touch-action: none;
+      user-select: none;
+    }
+    #item:active {
+      background-color: rgba(168, 218, 220, 1.00);
+    }
+    #item:hover {
+      cursor: pointer;
+      border-width: 20px;
+    }
+  </style>
+</head>
+
+<body>
+    <body>
+        <div id="outerContainer">
+          <div id="container">
+            <div id="item">
+      
+            </div>
+          </div>
+        </div>
+        <script src ='prox_dnd.js' ></script>
+</body>
+</html>      

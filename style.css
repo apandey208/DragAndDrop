@@ -1,0 +1,42 @@
+body{
+    background: linear-gradient(to left, rgba(0, 255, 42, 0.842), rgb(179, 212, 32));
+}
+.container {
+    scroll-snap-type: both proximity;
+    
+  }
+.heading{
+    text-align: center;
+    text-decoration:none;
+    font-size: larger;
+    
+
+}
+.dragFill{
+    background-image: url('https://interactive-examples.mdn.mozilla.net/media/cc0-images/grapefruit-slice-332-332.jpg');
+    position: relative;
+    height: 150px;
+    width: 150px;
+    top: 5px;
+    left: 5px;
+    cursor: pointer;
+    
+    
+}
+
+.empty_dnd{
+    display: inline-block;
+    height: 160px;
+    width: 160px;
+    margin: 10px;
+    border: 2px solid black;
+    background: blanchedalmond;
+    
+}
+.hovered{
+    background:white;
+    border-style: dotted;
+}
+.hold {
+    border: solid 5px #ccc;
+  }
